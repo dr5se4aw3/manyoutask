@@ -36,7 +36,7 @@
 | --- | --- |
 | id | integer |
 | name | string |
-| content | text |
+| detail | text |
 | deadline | string |
 | priority | string |
 | status | string |
