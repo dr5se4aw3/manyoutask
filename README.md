@@ -22,3 +22,29 @@
 - 「タスク登録画面で、必要項目を入力してcreateボタンを押したらデータが保存される」ことのテストを成功させましょう。
 - 「任意のタスク詳細画面に遷移したら、該当タスクの内容が表示されたページに遷移する」ことのテストを成功させましょう。
 - デバック・Rspec関係のgem以外のgemは追加していないこと
+
+
+## モデル
+### Userテーブル
+| column name | data |
+| --- | --- |
+| id | integer |
+| name | string |
+
+### Taskテーブル
+| column name | data |
+| --- | --- |
+| id | integer |
+| name | string |
+| content | text |
+| deadline | string |
+| priority | string |
+| status | string |
+| user_id | integer |
+
+### Labelテーブル
+| column name | data |
+| --- | --- |
+| id | integer |
+| name | string |
+| task_id | integer |
